@@ -1,0 +1,65 @@
+.home {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 9rem;
+}
+.home .container {
+  align-items: center;
+  padding-left: 13rem;
+}
+.home .container h1 {
+  font-size: 3.5rem;
+}
+
+.heading {
+  text-align: center;
+  color: var(--blue);
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 1rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+header .logo {
+  font-size: 3rem;
+  color: var(--dark-blue);
+}
+
+header .logo span {
+  color: var(--blue);
+}
+
+header .navbar a {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 0.7rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  color: lightseagreen;
+}
+
+header .navbar a.active,
+header .navbar a:hover {
+  background: gainsboro;
+  color: rgb(250, 142, 189);
+  box-shadow: 0 0.5rem 1rem rgb(66, 64, 64);
+}
+
+header.sticky {
+  background: rgb(51, 50, 51);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
